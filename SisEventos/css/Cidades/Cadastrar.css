@@ -1,0 +1,65 @@
+body {
+	background-image: url("../Fotos/fundo.jpg");
+	background-size: cover;
+  }
+  /* Formulário de cidade */
+
+.formulariocidade {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+    margin: 50px auto;
+    padding: 20px;
+    width: 50%;
+}
+
+.formulariocidade h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.formulariocidade label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.formulariocidade input[type="text"],
+.formulariocidade select {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+.formulariocidade input[type="submit"],
+.formulariocidade input[type="button"] {
+    background-color: #2c69cc;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    height: 40px;
+    margin-right: 10px;
+    width: 120px;
+}
+
+.formulariocidade input[type="submit"]:hover,
+.formulariocidade input[type="button"]:hover {
+    background-color: #144aa0;
+}
+
+.formulariocidade a {
+    color: #2c69cc;
+    text-decoration: none;
+}
+
+.formulariocidade a:hover {
+    color: #144aa0;
+}

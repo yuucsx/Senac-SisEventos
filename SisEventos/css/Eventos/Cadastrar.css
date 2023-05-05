@@ -1,0 +1,154 @@
+body {
+	background-image: url("../Fotos/fundo.jpg");
+	background-size: cover;
+  }
+
+/* Formulário de cadastro de informações */
+
+.formularioinfo {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+}
+
+.formularioinfo h2 {
+    color: #2c69cc;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.formularioinfo ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.formularioinfo ul li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 10px;
+    text-align: left;
+    width: 100%;
+}
+
+.formularioinfo ul li label {
+    color: #333;
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.formularioinfo ul li input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #333;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+}
+
+.formularioinfo ul:last-child {
+    margin-top: 30px;
+}
+
+.formularioinfo ul:last-child input[type="submit"] {
+    background-color: #2c69cc;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.formularioinfo ul:last-child input[type="submit"]:hover {
+    background-color: #144aa0;
+}
+
+.formularioinfo ul:last-child a {
+    background-color: #ccc;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.formularioinfo ul:last-child a:hover {
+    background-color: #999;
+}
+
+.formularioinfo {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+    margin: 50px auto;
+    padding: 20px;
+    width: 50%;
+}
+
+.formularioinfo h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.formularioinfo label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.formularioinfo input[type="text"],
+.formularioinfo select {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+.formularioinfo input[type="submit"],
+.formularioinfo input[type="button"] {
+    background-color: #2c69cc;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    height: 40px;
+    margin-right: 10px;
+    width: 120px;
+}
+
+.formularioinfo input[type="submit"]:hover,
+.formularioinfo input[type="button"]:hover {
+    background-color: #144aa0;
+}
+
+.formularioinfo a {
+    color: #2c69cc;
+    text-decoration: none;
+}
+
+.formularioinfo a:hover {
+    color: #144aa0;
+}

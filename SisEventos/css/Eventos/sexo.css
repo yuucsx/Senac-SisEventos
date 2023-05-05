@@ -1,0 +1,23 @@
+.sexo {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+  
+  .bolinha {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    margin: 5px;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  input[type="radio"]:checked + label .bolinha {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
