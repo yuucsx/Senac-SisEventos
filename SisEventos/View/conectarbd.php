@@ -1,7 +1,7 @@
 <?php
-$servidor = "localhost";
+$servidor = "127.0.0.1";
 $dbusuario = "root";
-$dbsenha = "senac";
+$dbsenha = "";
 $dbname = "db_eventos";
 $conn = mysqli_connect($servidor, $dbusuario, $dbsenha, $dbname);
 if (!$conn) {

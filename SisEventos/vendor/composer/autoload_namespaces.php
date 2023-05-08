@@ -7,4 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Mailjet' => array($vendorDir . '/mailjet/mailjet-apiv3-php/src'),
+    'JansenFelipe\\Utils' => array($vendorDir . '/jansenfelipe/utils/src'),
+    'JansenFelipe\\CpfGratis' => array($vendorDir . '/jansenfelipe/cpf-gratis/src'),
 );

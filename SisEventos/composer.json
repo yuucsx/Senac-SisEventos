@@ -1,6 +1,8 @@
 {
     "require": {
         "guzzlehttp/guzzle": "^7.5",
-        "mailjet/mailjet-apiv3-php": "^1.5"
+        "mailjet/mailjet-apiv3-php": "^1.5",
+        "jansenfelipe/cpf-gratis": "^1.0",
+        "respect/validation": "^2.2"
     }
 }

@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cpf_cnpj/0.2.0/cpf.js"></script>
+
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
@@ -137,4 +139,29 @@
             </form>
         </div>
     </body>
+
+    <script>
+    $(document).ready(function() {
+        var cpfValidator = CPF;
+
+        $('#iptcpf').on('blur', function() {
+            var cpf = $(this).val().replace(/\D/g, '');
+            if (cpf != '') {
+                if (!cpfValidator.isValid(cpf)) {
+                    $('#cpf-erro').html('CPF inválido.');
+                } else {
+                    $('#cpf-erro').html('');
+                }
+            }
+        });
+
+        $('form').on('submit', function(e) {
+            var cpf = $('#iptcpf').val().replace(/\D/g, '');
+            if (cpf != '' && !cpfValidator.isValid(cpf)) {
+                e.preventDefault();
+                alert('Por favor, corrija o CPF antes de enviar.');
+            }
+        });
+    });
+</script>
 </html>

@@ -45,7 +45,7 @@
                                 <td align="center"><?=$campo["id_info"]?></td>
                                 <td align="center"><?=$campo["nome"]?></td>
                                 <td align="center"><?=$campo["sobrenome"]?></td>
-                                <td align="center"><?=$campo["cpf"]?></td>
+                                <td align="center" width="120"><?=$campo["cpf"]?></td>
                                 <td align="center"><?=$campo["sexo"]?></td>
                                 <td align="center"><?=$campo["data_nasc"]?></td>
                                 <td align="center"><?=$campo["celular"]?></td>

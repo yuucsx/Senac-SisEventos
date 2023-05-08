@@ -11,9 +11,20 @@ class ComposerStaticInit6645f252ec5d0fd72861ca2062005ecd
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
         '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
+        '2df68f9e79c919e2d88506611769ed2e' => __DIR__ . '/..' . '/respect/stringifier/src/stringify.php',
+        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
     );
 
     public static $prefixLengthsPsr4 = array (
+        'S' => 
+        array (
+            'Symfony\\Polyfill\\Mbstring\\' => 26,
+        ),
+        'R' => 
+        array (
+            'Respect\\Validation\\' => 19,
+            'Respect\\Stringifier\\' => 20,
+        ),
         'P' => 
         array (
             'Psr\\Http\\Message\\' => 17,
@@ -28,6 +39,18 @@ class ComposerStaticInit6645f252ec5d0fd72861ca2062005ecd
     );
 
     public static $prefixDirsPsr4 = array (
+        'Symfony\\Polyfill\\Mbstring\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
+        ),
+        'Respect\\Validation\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/respect/validation/library',
+        ),
+        'Respect\\Stringifier\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/respect/stringifier/src',
+        ),
         'Psr\\Http\\Message\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/http-factory/src',
@@ -57,6 +80,17 @@ class ComposerStaticInit6645f252ec5d0fd72861ca2062005ecd
             'Mailjet' => 
             array (
                 0 => __DIR__ . '/..' . '/mailjet/mailjet-apiv3-php/src',
+            ),
+        ),
+        'J' => 
+        array (
+            'JansenFelipe\\Utils' => 
+            array (
+                0 => __DIR__ . '/..' . '/jansenfelipe/utils/src',
+            ),
+            'JansenFelipe\\CpfGratis' => 
+            array (
+                0 => __DIR__ . '/..' . '/jansenfelipe/cpf-gratis/src',
             ),
         ),
     );
